@@ -70,17 +70,16 @@ if(argv.length == 0){
 }
 
 function showHelp(){
-	echo("字幕改名 [Movie Subtitle Filename Sync] v0.1.0 beta\n\n" +
-	"将一个或者数个DVDRip目录中的字幕文件名，根据同目录中的电影文件名做修改。\n\n" +
+	echo("剧集改名 [Movie Subtitle Filename Sync] v0.1.0 beta\n\n" +
+	"将一个或者数个剧集目录中的字幕文件名，根据同目录中的剧集文件名做修改。\n\n" +
 	"msfs.js [ --install | --uninstall | --help ] names\n\n" +
 	"  names      \t指定一个或者数个需要处理的目录的列表。\n" +
 	"  --install  t安装msfs.js到Windows目录，并且将\"字幕改名\"功能加入右键菜单。\n" +
 	"  --uninstall\t删除Windows目录中的msfs.js，并且移除右键菜单中的\"字幕改名\"功能。\n" +
 	"  --help     \t显示本帮助信息。\n\n" +
-	"如果安装了本软件，可以选中一个或者数个DVDRip目录，右键选择\"字幕改名\"来进行改名\n操作。\n" +
+	"如果安装了本软件，可以选中一个或者数个剧集目录，右键选择\"字幕改名\"来进行改名\n操作。\n" +
 	"如果不使用任何参数，本软件将会显示帮助信息。\n" +
-	"如果DVDRip目录中有rar文件，也会将rar文件解压缩再进行改名操作，但是这个功能需要\n系统中安装WinRar。\n\n" +
-	"注意：本软件不能用于剧集或者高清电影的字幕改名。");
+	"如果剧集目录中有rar文件，也会将rar文件解压缩再进行改名操作，但是这个功能需要\n系统中安装WinRar。\n\n");
 }
 
 function echo(v){
